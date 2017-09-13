@@ -7,8 +7,12 @@
     tools:context="com.zpj.framelayout_test.MainActivity"
 
     >
-    <include layout="@layout/title" />
+<com.zpj.framelayout_test.titleActivity
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
+
+</com.zpj.framelayout_test.titleActivity>
 
     <TextView
         android:layout_width="wrap_content"
